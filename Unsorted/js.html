@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Random section selector</title>
+	</head>
+	<body>
+	
+		<h1><a href="https://read.amazon.com" target="_blank" id="chapterLink">Click for a random chapter to review</a></h1>
+		<button id="bookLink">Open the book</button>
+		<script>
+			document.getElementById("chapterLink").onmouseover = getRandomChapter;
+			document.getElementById("bookLink").onclick = openBook;
+			function getRandomChapter() {
+				var chapterNum = Math.random();
+				chapterNum = (chapterNum * 89) + 1;
+				chapterNum = Math.floor(chapterNum);
+				var chapterLink = document.getElementById("chapterLink");
+                		chapterLink.href = "http://asmarterwaytolearn.com/js/" + chapterNum + ".html";
+			}
+			function openBook() {
+				var bookWindow = window.open("https://read.amazon.com");
+			}
+		</script>
+	</body>
+
+</html>
