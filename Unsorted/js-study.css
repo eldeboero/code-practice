@@ -1,0 +1,28 @@
+table,
+td {
+  border: 1px solid white;
+  align-content: center;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+}
+
+.centeredTableStuff {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  margin: 10px;
+}
+
+.biglink {
+  font-size: 2em;
+}
+
+.centeredLink {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
