@@ -1,0 +1,12 @@
+#main {
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  margin: auto;
+  padding: 15px;
+  width: 75%;
+}
+
+.centered {
+  text-align: center;
+}

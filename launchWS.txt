@@ -1,0 +1,2 @@
+docker run -d --name javascript -v /home/bdeboer/Repos/code-practice:/usr/local/apache2/htdocs -p 8080:80 httpd
+docker start javascript
