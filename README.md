@@ -1,5 +1,8 @@
 # code-practice
 
-## A little bit everyday....
+## Working through random exercises, experimenting, etc.
 
-### Wrangling my various keys
+* https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
+* https://getbootstrap.com/
+* https://bootswatch.com/
+* https://reactjs.org/
