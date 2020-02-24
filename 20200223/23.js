@@ -26,7 +26,7 @@ function switchChars () {
     document.getElementById('outputString').value = switchedString;
   }
   else {
-    alert("Please enter a string longer than a single character");
+    alert("Please enter a string longer than a single character")
   }
 }
 

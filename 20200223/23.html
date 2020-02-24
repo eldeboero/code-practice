@@ -1,28 +1,68 @@
 <html>
+
 <head>
   <title>Exercise 23</title>
   <link rel="stylesheet" type="text/css" href="23.css">
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./bootstrap.min.css">
+
 </head>
+
 <body>
-<div id="main">
-  <div id="Header">
-    <p><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php">Exercise 23</a><br><br>
-      Write a JavaScript program to create a new string from a given string changing the position of first and last characters. The string length must be greater than or equal to 1
+  <div id="main" class="section">
+    <div id="Header">
+      <p><a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php">Exercise
+          23</a><br><br>
+        Write a JavaScript program to create a new string from a given string changing the position of first and last
+        characters. The string length must be greater than or equal to 1
       </p>
-    <div class="centered">
-      <input id="inputString" type="text" placeholder="Enter a string to switch"></input>
-      <input id="outputString" type="text" readonly="true"></input>
-      <button id="btnSwitchChars">Switch</button>      
+      <div class="centered">
+        <input id="inputString" type="text" placeholder="Enter a string to switch"></input>
+        <input id="outputString" type="text" readonly="true"></input>
+        <button id="btnSwitchChars" class="btn-primary">Switch</button>
+      </div>
     </div>
+    <div class="section">
+      <p>Not relevant to the exercise, but doing something w/ bootstrap!</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Fire up a modal
+      </button>
+    </div>
+    <div id="exampleModal" class="modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">I made a thing!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>You need to do something in a modal window before you can proceed</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
-</div>
 
 
 
-
-
-<script src="23.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="23.js"></script>
 </body>
 
 </html>
