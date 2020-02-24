@@ -1,0 +1,6 @@
+tmux new -s ngrok
+ngrok http --host-header=rewrite 8080
+
+# CTL+B, D to detach
+
+tmux a -t ngrok
