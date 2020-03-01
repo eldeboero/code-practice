@@ -1,0 +1,24 @@
+.mw-input span:last-of-type {
+  color: transparent !important;
+  position: relative;
+  display: inline-block;
+}
+
+.mw-input span:last-of-type::before {
+  content: '+  ';
+  color: black;
+  font-size: 1em;
+}
+
+.mw-input span:last-of-type:empty::before {
+  content: '';
+}
+
+.mw-input span:last-of-type:hover {
+  color: grey !important;
+  padding: 5px 5px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: thin;
+  z-index: 1;
+}
