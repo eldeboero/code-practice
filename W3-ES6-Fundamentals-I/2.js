@@ -56,13 +56,9 @@ This would allow you to escape the browser -----
 
 document.getElementById('copier').addEventListener('click', copyToClipBoard);
 
-function copyToClipBoard(){
-  const testString = "Hello there!";
-  worker(testString);
+function copyToClipBoard() {
+  const newEl = document.createElement('myText');
+  newEl.setAttribute('read-only','');
+  document.body.appendChild(newEl);
+  console.log('wtf');
 }
-
-const worker = str => console.log(str);
-
-const newEl = document.createElement('myText');
-newEl.setAttribute('read-only','');
-document.body.appendChild(newEl);
