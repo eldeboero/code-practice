@@ -1,0 +1,1 @@
+20200318: Installed the Code Runner Extension - activate it with CTL+ALT+N
